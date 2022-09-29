@@ -11,6 +11,8 @@ public class Main {
 
         Map<Team, List<Employee>> yody = employeeMain.deviceEmployeeToYody(employees);
 
-        System.out.println("");
+        System.out.println(employeeMain.getLate(yody));
+
+        System.out.println(employeeMain.getOver3Time(yody));
     }
 }
